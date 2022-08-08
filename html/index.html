@@ -4,9 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Kokoa Clone</title>
+    <script
+      src="https://kit.fontawesome.com/476d841f49.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div></div>
+    <div class="status-bar">
+      <div class="status-bar__colume">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__colume">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__colume">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt-lightning"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <p class="welcome-header__text">
+        If you have a kokoa Account, log in with your email or phone number.
+      </p>
+    </header>
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Kokoa Account or Password</a>
+    </form>
   </body>
 </html>
