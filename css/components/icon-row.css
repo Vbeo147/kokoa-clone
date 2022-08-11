@@ -17,3 +17,12 @@
 .icon-row__icon span {
   margin-top: 15px;
 }
+
+.icon-row:nth-child(3) {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icon-row:nth-child(3) .icon-row__icon {
+  margin-right: 65px;
+}
